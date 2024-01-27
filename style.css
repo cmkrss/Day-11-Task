@@ -1,0 +1,82 @@
+/* body{
+    background-color: #cbd3c5;
+}
+
+.content-view{
+    display: flex;
+    border: 1px white;
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.main-container {
+    background-color: #cbd3c5;
+    height: 743px;
+}
+
+header{
+    display: flex;
+    background-color: #2e3c46;
+    justify-content: space-between;
+    padding: 20px;
+    height: 50px;
+    /*4border: 3px solid black; */
+    margin-bottom: 15px;
+}
+
+.content-view {
+    border-radius: 10px;
+    display: grid;
+    /* margin: 30px; */
+    grid-template-columns: 300px 1000px;
+    background-color: #cbd3c5;
+    gap: 4em;
+
+}
+
+.left-view {
+    margin: 20px;
+    background-color: #343435;
+    width: 300px;
+    height: 550px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.right-view {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+input {
+   background-color: #343435;
+   width: 420px;
+   padding: 10px;
+   border: none;
+   border-radius: 10px;
+}
+.card-containers{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+.card {
+    background-color: #343435;
+    width: 200px;
+    height: 130px;
+    border-radius: 10px;
+}
+.long-card {
+    background-color: #343435;
+    width: 670px;
+    height: 200px;
+    border-radius: 10px;
+}
